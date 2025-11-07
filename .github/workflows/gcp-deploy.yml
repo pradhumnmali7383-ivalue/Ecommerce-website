@@ -20,4 +20,4 @@ jobs:
           export_default_credentials: true
  
       - name: Upload files to GCS
-        run: gsutil -m rsync -r ./ gs://s1-bucket
+        run: gsutil -m rsync -r ./ gs://s1-test
